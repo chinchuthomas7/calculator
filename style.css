@@ -36,9 +36,9 @@ h2{
 button{
     width: 55px;
 /*     height: 30px; */
-    height:50px;
+    height:40px;
     margin-top: 8px;
-    background-color:pink ;
+    background-color:navy blue ;
     color: papayawhip;
     border-radius:4px ;
     font-family: cursive;
