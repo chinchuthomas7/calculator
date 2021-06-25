@@ -39,7 +39,8 @@ button{
     height:40px;
     margin-top: 8px;
     background-color:#203354;
-    color: papayawhip;
+/*     color: papayawhip; */
+    color:#099FFF;
     border-radius:4px ;
     font-family: cursive;
 }
