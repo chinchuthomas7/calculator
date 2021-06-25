@@ -26,7 +26,7 @@ h2{
 
 
 #inpt{
-    width: 230px;
+    width: 250px;
     height: 30px;
     border-color: lightcoral;
     border-style: ridge;
@@ -34,7 +34,7 @@ h2{
 }
 
 button{
-    width: 60px;
+    width: 65px;
 /*     height: 30px; */
     height:40px;
     margin-top: 8px;
