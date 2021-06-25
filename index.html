@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="row" style="text-align: center;">
+        <h2 style="color: cornsilk; font-family: Arial, Helvetica, sans-serif;"> CALCULATOR </h2>
+        <div class="col"></div>
+
+        <div class="col">
+
+            <input type="text" name="" id="inpt">
+
+            <div class="first">
+                <button onclick="clearBox()">AC</button>
+                <button onclick="clearOnce()" >C</button>
+                <button onclick="display('/')">/</button>
+                <button onclick="display('*')">*</button>
+            </div>
+            <div class="first">
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')">3</button>
+                <button onclick="display('+')">+</button>
+            </div>
+            <div class="first">
+
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('-')">-</button>
+            </div>
+            <div class="first">
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="display('0')">0</button>
+
+            </div>
+            <div class="first">
+                <button onclick="display('(')">(</button>
+                <button onclick="display(')')">)</button>
+                <button onclick="display('.')">.</button>
+                <button onclick="validate()">=</button>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="col"></div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
